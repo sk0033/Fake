@@ -16,17 +16,3 @@ const countdown = setInterval(() => {
 function goToNextPage() {
     window.location.href = postLink; 
 }
-
-function trackAdClick() {
-    window.open('https://ad-redirect-link.com', '_blank');
-}
- type="text/javascript">
-	atOptions = {
-		'key' : 'bdab91e4663d389bc45133c1750fc80b',
-		'format' : 'iframe',
-		'height' : 300,
-		'width' : 160,
-		'params' : {}
-	};
-</script>
-<script type="text/javascript" src="//www.highperformanceformat.com/bdab91e4663d389bc45133c1750fc80b/invoke.js"></script>
