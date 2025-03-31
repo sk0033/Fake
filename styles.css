@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: url('background.png') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+/* Profile Page */
+.container {
+    max-width: 500px;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(12px);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.profile-img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.button {
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    background: white;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Ads */
+.top-ad, .bottom-ad {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.9);
+    text-align: center;
+    padding: 15px;
+    font-weight: bold;
+    color: black;
+    position: fixed;
+    left: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.top-ad { top: 0; }
+.bottom-ad { bottom: 0; }
+
+.popup-ad {
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 320px;
+    background: rgba(255, 255, 255, 0.9);
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    z-index: 1000;
+    color: black;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+.popup-ad.top { top: calc(50% - 80px); }
+.popup-ad.bottom { top: calc(50% + 50px); }
+
+.sticky-text {
+    position: fixed;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 20px;
+    font-weight: bold;
+    color: red;
+    background: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    z-index: 1002;
+}
+
+/* Timer */
+.timer-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(12px);
+    padding: 10px 15px;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    z-index: 1001;
+    width: auto;
+    min-width: 100px;
+}
+
+/* Continue Button */
+.continue-button {
+    background: #007bff;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.continue-button:hover {
+    background: #0056b3;
+}
