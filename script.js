@@ -1,4 +1,4 @@
-let timeLeft = 15;
+let timeLeft = 5;
 const timerElement = document.getElementById("timer");
 
 // Get the selected post link
